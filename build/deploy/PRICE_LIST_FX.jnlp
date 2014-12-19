@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PRICE_LIST_FX.jnlp">
+  <information>
+    <title>PRICE_LIST_FX</title>
+    <vendor>Nikolaos Triantafyllou</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PRICE_LIST_FX.jar" size="672411" download="eager" />
+    <jar href="libs/com.mysql.jdbc_5.1.5.jar" size="676712" download="eager" />
+    <jar href="libs/controlsfx-8.20.8.jar" size="957666" download="eager" />
+    <jar href="libs/controlsfx-samples-8.20.8.jar" size="643007" download="eager" />
+    <jar href="libs/fxsampler-1.0.8.jar" size="29451" download="eager" />
+    <jar href="libs/jxl.jar" size="725735" download="eager" />
+    <jar href="libs/openjfx-dialogs-1.0.2.jar" size="148557" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="com.javafx.main.NoJavaFXFallback"  name="UNITS-PRICE-LIST" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="0" height="0" main-class="control.Main"  name="UNITS-PRICE-LIST" />
+  <update check="background"/>
+</jnlp>

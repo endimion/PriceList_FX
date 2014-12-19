@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+
+.root {
+     -fx-background-image: url("background.jpg");
+}
+
+
+
+#singIn{
+	 -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+#save{
+	 -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+   
+}
+
+#save:hover{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#back{
+	 -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#back:hover{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+
+
+#singIn:hover{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#positive{
+	-fx-text-fill: white;
+	-fx-background-color: #FF6666;
+}
+
+#negative{
+	-fx-text-fill: white;
+	-fx-background-color: #66FF66;
+}
+
+
+
+#welcome-text{
+	-fx-alignment: center;
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+
+#FilterSmallTitle{
+	 -fx-alignment: center;
+   -fx-font-size: 12px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+
+
+#FilterTitle{
+   -fx-alignment: center;
+   -fx-font-size: 18px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+
+#notChecked{
+	-fx-background-color: #FFA3FF;
+}
+
+
+#searchID{
+	 -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+   
+}
+
+
+#searchID:hover{
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
